@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GT Pickup Sports</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="action_myEvents">My Events</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_logout">Logout</string>
+    <string name="addEvent">Add Event</string>
+    <string name="noEvents">There are no events to show!</string>
+    <string name="userLoggedIn">Hello,</string>
+    <string name="submitTitle">Submit Event</string>
+    <string name="startDateTimeTitle"><![CDATA[Start Date & Time]]></string>
+    <string name="endDateTimeTitle"><![CDATA[End Date & Time]]></string>
+    <string name="setEndTimeButtonText"><![CDATA[Set End Time]]></string>
+    <string name="setEndDateButtonText"><![CDATA[Set End Date]]></string>
+    <string name="setStartTimeButtonText">Set Start Time</string>
+    <string name="setStartDateButtonText">Set Start Date</string>
+    <string name="title_activity_event_detail">EventDetail</string>
+    <string name="startTime">Start Time:</string>
+    <string name="endTime">End Time:</string>
+    <string name="attendees">Number of Attendees:</string>
+    <string name="sportType">Sport:</string>
+    <string name="event_location_name">Location:</string>
+    <string name="setTimeAndDateText"><![CDATA[Set Time & Date]]></string>
+    <string name="sport">Sport</string>
+    <string name="location">Location</string>
+    <string name="fullEventListButtonText">Full Event List</string>
+    <string name="join_event">Join Event</string>
+    <string name="leave_event">Leave Event</string>
+    <string name="searchForEvents">Search for Events</string>
+    <string name="loginPrompt">Login with GT Credentials</string>
+</resources>

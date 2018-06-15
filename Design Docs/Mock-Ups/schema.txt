@@ -1,0 +1,2 @@
+Event(location_name, start_time, end_time, num_attendees, pickup_type)
+Location(location_name)

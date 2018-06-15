@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:weightSum="1">
+
+    <ImageView
+           android:layout_width="fill_parent"
+           android:layout_height="0dp"
+           android:layout_gravity="center"
+           android:src="@drawable/ic_launcher"
+           android:adjustViewBounds="false"
+           android:id="@+id/loginImage"
+           android:layout_weight="0.24"
+           android:layout_marginBottom="@android:dimen/app_icon_size"
+           android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/loginPrompt"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/loginUsernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/loginPasswordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:imeOptions="actionGo"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:hint="@string/password"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/login"/>
+
+</LinearLayout>
